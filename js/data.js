@@ -222,13 +222,13 @@ sensationApp.factory('NewsData', function(){
 sensationApp.factory('PostsData', function(){
     
     /* (For DEMO purposes) Local JSON data */
-    var data = { url: 'json/wordpress.json' };
+    //var data = { url: 'json/wordpress.json' };
     
     /* Set your URL as you can see in the following example */
     // var data = { url: 'YourWordpressURL/?json=get_recent_posts' };
     
     /* With user-friendly permalinks configured */
-    // var data = { url: 'YourWordpressURL/api/get_recent_posts' };
+     var data = { url: 'http://vps16219.inmotionhosting.com/~seva605/phoneGap/api/get_recent_posts' };
     
     return data;
 });
@@ -237,15 +237,15 @@ sensationApp.factory('PostsData', function(){
 sensationApp.factory('ServerPostsData', function(){
     
     /* (For DEMO purposes) Local JSON data */
-    var data = { url: 'json/serverposts&' };
+    //var data = { url: 'json/serverposts&' };
     
     /* Set your URL as you can see in the following example */
     /* NOTE: In case of the default permalinks, you should add '&' at the end of the url */
-    // var data = { url: 'YourWordpressURL/?json=get_recent_posts&' };
+     //var data = { url: 'YourWordpressURL/?json=get_recent_posts&' };
     
     /* With user-friendly permalinks configured */
     /* NOTE: In case of the user-friendly permalinks, you should add '?' at the end of the url */
-    // var data = { url: 'YourWordpressURL/api/get_recent_posts?' };
+     var data = { url: 'http://vps16219.inmotionhosting.com/~seva605/phoneGap/api/get_recent_posts?' };
     
     return data;
 });
@@ -254,16 +254,16 @@ sensationApp.factory('ServerPostsData', function(){
 sensationApp.factory('CategoriesData', function(){
     
     /* (For DEMO purposes) Local JSON data */
-    var data = { url: 'json/categories.json',
-                 category_url: 'json/category' };
+    //var data = { url: 'json/categories.json',
+                 //category_url: 'json/category' };
     
     /* Set your URL as you can see in the following example */
     // var data = { url: 'YourWordpressURL/?json=get_category_index',
     //             category_url: 'YourWordpressURL/?json=get_category_posts&' };
     
     /* With user-friendly permalinks configured */
-    // var data = { url: 'YourWordpressURL/api/get_category_index',
-    //             category_url: 'YourWordpressURL/api/get_category_posts?' };
+     var data = { url: 'http://vps16219.inmotionhosting.com/~seva605/phoneGap/api/get_category_index',
+                 category_url: 'YourWordpressURL/api/get_category_posts?' };
     
     return data;
 });
